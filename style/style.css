@@ -47,11 +47,12 @@ body {
         }
 
         a:hover {
-            color: rgb(33, 0, 85);
+            /* color: rgb(33, 0, 85); */
+            color: aliceblue;
             background: linear-gradient(90deg,
-                    rgba(222, 0, 75, 1) 0%,
+                    rgb(175, 82, 113) 0%,
                     rgba(191, 70, 255, 1) 49%,
-                    rgba(0, 212, 255, 1) 100%);
+                    rgb(132, 203, 218) 100%);
         }
     }
 }
