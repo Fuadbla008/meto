@@ -62,16 +62,30 @@ a:active {
 }
 
 
-.driver-report{
+.card-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.driver-report,
+.information,
+.track-report{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
 
     h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 25px;
         font-weight: 700;
+        /* background-color: aqua; */
+
     }
+
 }
