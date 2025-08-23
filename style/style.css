@@ -60,3 +60,18 @@
 a:active {
     transform: scale(0.97);
 }
+
+
+.driver-report{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
